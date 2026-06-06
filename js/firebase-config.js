@@ -4,12 +4,12 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-aut
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "PEGAR_API_KEY",
-  authDomain: "PEGAR_AUTH_DOMAIN",
-  projectId: "PEGAR_PROJECT_ID",
-  storageBucket: "PEGAR_STORAGE_BUCKET",
-  messagingSenderId: "PEGAR_MESSAGING_SENDER_ID",
-  appId: "PEGAR_APP_ID"
+  apiKey: "AIzaSyCOJ7wHVeCE7iwVh49anOjakzAJ4x-H9xY",
+  authDomain: "mundial-72a87.firebaseapp.com",
+  projectId: "mundial-72a87",
+  storageBucket: "mundial-72a87.firebasestorage.app",
+  messagingSenderId: "735832559935",
+  appId: "1:735832559935:web:ab8fb046c4838e31d0838a",
 };
 
 export const app = initializeApp(firebaseConfig);
