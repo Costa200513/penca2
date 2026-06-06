@@ -284,7 +284,6 @@ function renderAdminMatch(m){
       </form>
       <form class="admin-schedule-form admin-manual-form" data-match="${m.id}">
         <label>Día y horario del partido (Uruguay)<input name="dateTime" type="datetime-local" value="${m.dateTime?m.dateTime.substring(0,16):''}"></label>
-        <small class="input-help">Este dato es independiente del resultado. Podés cargar o corregir el horario sin marcar goles.</small>
         <button class="cancel-btn">Guardar horario</button>
       </form>
       <form class="admin-score-form" data-match="${m.id}">
